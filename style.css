@@ -1,5 +1,9 @@
 
-
+.topright{
+  text-align: right;
+  padding: 30px;
+  margin: auto;
+}
 * {
     box-sizing: border-box;
   }
@@ -7,6 +11,7 @@
   body{
       margin: 0;
       padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
   }
   
   .row{
@@ -91,7 +96,7 @@
     }
   }
   
-  @media (min-width: 0px) and (max-width: 767px) {
+  @media(max-width: 767px) {
     .col-sm-12 {
       float: left;
       width: 100%;
